@@ -1,0 +1,176 @@
+Zenko Magazine
+http://www.wpzoom.com/themes/zenko/
+
+CHANGELOG
+---------
+
+v 2.1.9 (December 14, 2013)
+
+	- /functions/theme/functions.php - Fixed the error message "Init failed: Galleria could not find the element "#galleria-xx" that may appear in Framework 1.4.0
+
+
+v 2.1.8 (June 14, 2013)
+
+	- Fixed Twitter Widget (added compatibility with API version 1.1)
+	- modified files:
+		- /functions/theme/widgets/twitter.php
+	
+	- added files:
+		- /functions/theme/widgets/twitteroauth/OAuth.php
+		- /functions/theme/widgets/twitteroauth/twitterauth.php
+
+
+v 2.1.7 (April 29, 2013)
+	
+	- /js/dropdown.js - bug fix
+
+
+v 2.1.6 (April 11, 2013)
+	
+	- /js/jtools.js - bug fix with homepage slideshow in Firefox.
+
+
+v 2.1.5 (March 6, 2013)
+	
+	- /js/jtools.js - bug fix with menu drop-downs when JetPack is active.
+
+
+v 2.1.4 (January 26, 2013)
+	
+	- Added "Styling" section in Theme Options.
+ 	- modified files:
+		/functions/theme/options.php
+
+
+v 2.1.3 (January 22, 2013)
+
+	- Added the option to display site title as logo by default, when a logo image was not uploaded in Theme Options
+	- modified files:
+		header.php
+		style.css
+
+
+v 2.1.2 (January 11, 2013)
+
+	- /functions/theme/widgets/featured-category.php - Added new option to allow to exclude featured posts from the featured category widget
+
+
+v 2.1.1 (August 2, 2012)
+
+	- /functions/theme/sidebar.php - Added back Sidebar Left and Sidebar Right which were deleted mistakenly in version 2.1
+	- /functions/theme/widgets/featured-category.php - fixed a bug with thumbnail size
+	- loop.php - fixed "Read More" button
+	- single.php - fixed but with tags cannot be disabled from Theme Options
+
+
+v 2.1 (July 30, 2012)
+
+	- Added support for native WordPress image cropping
+	- The theme doesn't uses TimThumb script for thumbnails cropping anymore
+	- modified files:
+		/functions/theme/functions.php
+ 		/functions/theme/post-options.php
+  		/functions/theme/widgets/featured-category.php
+  		/functions/theme/widgets/recentposts.php
+   		archive.php
+   		index.php
+  		loop.php
+   		wpzoom-slider.php
+
+
+v 2.0.2 (May 15, 2012)
+
+	- bug fix with images from Slideshow Shortcode not showing in IE.
+		modified files: style.css
+
+
+v 2.0.1 (May 4, 2012)
+
+	- loop.php - fixed a bug with thumbnail mismatching the excerpt.
+
+
+v 2.0 (March 12, 2012)
+
+	- Fully re-written code
+	- WPZOOM Framework is now integrated in this theme
+	- All theme files were modified.
+
+	New features:
+		- Facebook Widget
+		- Twitter Widget
+		- A different Slideshow, that can display only specific posts which you mark as featured
+
+	Improvements:
+		- All widgets were updated.
+ 		- Posts from slideshow can be excluded from Recent Posts section
+		- Numerous bug fixes and code improvements
+
+
+v 1.6.1 (December 14, 2011)
+	- An update for WordPress 3.3
+	- File edited: header.php
+
+
+V 1.6 (August 6, 2011)
+	- An important security fix: /scripts/timthumb.php has been updated to 2.0
+
+v 1.5
+
+	- new file: custom.css - add in it your custom CSS code.
+	- minor fixes to support child themes
+	- modified files:
+		functions/wpzoom-core.php
+		functions/wpzoom-functions.php
+		wpzoom_admin/admin_functions.php
+		wpzoom_admin/options.css
+		header.php
+		single.php
+		style.css
+		footer.php
+
+v 1.4
+
+  	- minor bug fixes
+	- added localization support (multilingual). Details in /languages/ folder
+	- added support for WPMU
+	- /scripts/timthumb.php file updated
+ 	- New features in Themes Options:
+		- Option to auto-rotate featured slider
+		- Option to set the numbers of posts on Homepage Categories
+
+
+
+v 1.3
+
+	- added WPZOOM Options Panel
+	- admin_setup renamed to wpzoom_admin
+	- added /js/dropdown.js
+	- added support for Custom Menus (3.0+)
+	- added support for Custom Background (3.0+)
+
+
+v 1.2
+
+	- added support for "Post Thumbnails" functions
+	- integrated Flickr Widget
+	- added a "Share on Facebook" button in single.php
+	- improved Themes Options with new features:
+		- Categories & Pages Excluder from Main Menu
+		- Category Excluder from The Loop - very useful when you want to hide and prevent duplicate posts from Featured Category on Recent Articles.
+		- Logo Path - you can easy upload your modified logo image.
+
+
+V 1.1
+
+	- fixed css bugs: added padding after featured box, menu bar extended to fit more pages
+	- fixed floating sidebar in IE7,6
+
+V 1.0.2
+
+	- upgraded the Options Page
+	- fixed some bugs
+	- updating to WordPress 2.8
+
+V 1.0.1
+
+	- initial version
