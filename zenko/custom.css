@@ -1,0 +1,42 @@
+/******************************************  
+ CUSTOM STYLESHEET
+*******************************************/
+
+/*
+* You can place your custom CSS statements in this file, after this message.
+* It is better to write everything custom here
+* because this file won't be replaced during updates.
+* 
+* Simply copy an existing style from style.css to this file, 
+* and modify it to your liking.
+*/
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, Gadget, sans-serif;
+    font-size: 100%; /* default browser size is 16px */
+	line-height: 1.5;
+}
+
+.slide_content h2 {
+    font-family: Arial, sans-serif;
+}
+
+.slide_content p {
+	line-height: 1.75;	
+}
+
+.firstn h2 {
+    font-family: Arial;
+}
+
+.rightn a {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.rightn {
+    color: #555;
+    font-size: 12px;
+    line-height: 1.5; /* 18px */
+}
