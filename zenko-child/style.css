@@ -5,7 +5,7 @@
 	Author: John Gow
 	Author URI: http://liveeyetv.org
 	Template: zenko
-	Version: 150703
+	Version: 151020
 	License: GNU General Public License v2 or later
  	License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  	Tags: music blog
@@ -13,8 +13,7 @@
 
 /*** GLOBAL STYLES ***/
 body {
-      font-size: 100%;
-	  /*font-family: Arial, Helvetica, Gadget, sans-serif;*/
+
 }
 /*** END GLOBAL STYLES ***/
 
@@ -24,8 +23,7 @@ h3.blue {
 
 #menu{ }
 
-#home blog{
-//	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+/*#home blog {
 	background-color: white;
 	margin-top:20px;
 	padding: 0px 20px;
@@ -37,27 +35,20 @@ h3.blue {
 	padding-left-rtl-source: physical;
 	padding-right-ltr-source: physical;
 	padding-right-rtl-source: physical;
-}
+}*/
 
 .hfeed {
 		background-color: white;
 }
 
 
-#whiteWrapper{
-//	background: #fff auto 920px;
-//	rgb(255, 255, 255);
+#whiteWrapper {
 	background-color: #fff;
 	width: 980px;
-//	margin-left: 360px;
-//	margin-right: 360px;
 	margin-left: auto;
 	margin-right: auto;
-	/*margin-top:.5em;*/
 	padding: .20em 1.1em .25em 1.1em;	
 }
-
-//#slides_container{ 90%; }
 
 ul.dropdown {
 	background-color: #000000;
@@ -65,8 +56,6 @@ ul.dropdown {
 	height: 28px;
 	margin-top: 1em;		
 }
-
-/*#header { height:135px; }*/
 
 #header {
     height: 135px;
@@ -99,7 +88,6 @@ ul.dropdown {
 	left: 10px;
 	position: relative;
 	top: 50px;
-	/* width: 190px; */
 }
 	  
   #se {
@@ -113,17 +101,12 @@ ul.dropdown {
     font-size: 11px;
 }
 
-
-/*#logo { height:116px; }*/
-
 #logo {
     float: left;
     height: 90px;
     margin-bottom: 25px;
     margin-top: 30px;
 }
-
-
 
 #footer div.column { margin-left: 10px; }
 
@@ -146,22 +129,12 @@ ul.dropdown {
     line-height: normal;
 }
 
-.rightn {
-   /*font-size: .75em;*/  /* 12/16 = .75 */
-}
-
-.rightn li p {
-     /*font-size: .75em; */ /* 12/16 = .75 */
-}
-
 .firstn h2 {
     font-size: 17px;
     line-height: normal;
 	font-weight:400;
 	color: rgb(24,24,24);
 	font-style: normal;
-	
 }
 
 .bubble { display: none; }
-
